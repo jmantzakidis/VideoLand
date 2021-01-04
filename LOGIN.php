@@ -8,6 +8,7 @@ if($user=="Admin"&& $pass=="12345")
 else
 {
     echo "Wrong User Id or Password";
+    header('Location: wrong.html');
 }
 ?>
 
@@ -27,4 +28,3 @@ else
 <br>
 <br>
 <a href="index.html" class="button2">HomePage</a>
-
